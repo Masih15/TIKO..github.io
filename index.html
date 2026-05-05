@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TIKOn Kesäkalenteri 2026</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<header>
+    <h1>TIKOn Kesäkalenteri 2026</h1>
+</header>
+
+<main>
+    <button id="vipu">PYÖRÄYTÄ VIIKON TAPAHTUMA🎰</button>
+    
+    <div id="kalenteri"></div>
+</main>
+
+<!-- BIGBOSS MODAALI (Tämä täytyy olla tässä, jotta JS löytää sen) -->
+<div id="viestiModaali" class="modaali">
+    <div class="modaali-sisalto">
+        <h3 id="modaaliOtsikko">BigBoss sanoo:</h3>
+        <p id="modaaliTeksti"></p>
+        <button onclick="suljeModaali()">SELVÄ!</button>
+    </div>
+</div>
+
+<script src="koodi.js"></script>
+
+</body>
+</html>
